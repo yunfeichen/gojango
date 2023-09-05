@@ -1,0 +1,25 @@
+[listen]
+port = 8080
+
+[staticfile]
+alias = "static"
+path = "./static"
+
+[jwt]
+key = "magicpensoft123"
+timeout = 86400
+
+[keyauth]
+keyname  = "apikey"
+keyvalue = "keyhechongkeyauth"
+
+
+[aliyuntts]
+appkey = "3AKdAPWbAz80JcHl"
+accesskeyid = "LTAI5tSHeRaevyaoYXw4JTa9"
+accesskeysecret= "22hK6uC8MMPf8qdlcfW8T2MxgYzaIgxS"
+
+[baidutts]
+apikey = "iV0iziecP53ibFrNU8vq8eTE"
+secretkey= "kPzBIikUukM5Kc6wCpmww7xeqhExVoeD"
+
